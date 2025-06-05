@@ -1,0 +1,89 @@
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 5th Anniversary Suamiku🩷</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen">
+    <div class="loading-text">Loading... <span id="loading-percentage">0%</span></div>
+  </div>
+
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen hidden">
+    <h1>Happy 5th Anniversary Suamiku🩷</h1>
+    <button id="start-btn">Klik untuk Mulai</button>
+  </div>
+
+<!-- Part 1: Galeri -->
+<div id="part-kenangan" class="screen hidden">
+  <h2>Galeri</h2>
+    <div class="gallery-grid">
+    <img src="images/foto1.jpg" alt="Foto 1" onerror="this.style.display='none'">
+    <img src="images/foto2.jpg" alt="Foto 2" onerror="this.style.display='none'">
+    <img src="images/foto3.jpg" alt="Foto 3" onerror="this.style.display='none'">
+    <img src="images/foto4.jpg" alt="Foto 4" onerror="this.style.display='none'">
+    <img src="images/foto5.jpg" alt="Foto 5" onerror="this.style.display='none'">
+    <img src="images/foto6.jpg" alt="Foto 6" onerror="this.style.display='none'">
+    <img src="images/foto7.jpg" alt="Foto 7" onerror="this.style.display='none'">
+    <img src="images/foto8.jpg" alt="Foto 8" onerror="this.style.display='none'">
+    <img src="images/foto9.jpg" alt="Foto 9" onerror="this.style.display='none'">
+    <img src="images/foto10.jpg" alt="Foto 10" onerror="this.style.display='none'">
+    </div>
+  <button class="next-btn">Next</button>
+</div>
+
+<!-- Part 2: Ucapan -->
+<div id="part-ucapan" class="screen hidden">
+  <img src="images/foto8.jpg" alt="Linda" class="part-img">
+  <h2>Ucapan Dari Linda</h2>
+  <p>
+    Terima kasih sudah menjadi seseorang yang sangat berarti dalam hidupku.
+    Aku bersyukur setiap hari memilikimu, sayang. 💕
+  </p>
+  <p>
+    Terimakasih juga suamiku telah menjadi suami yang sabar, suami yang sholih,<br>
+    suami yang selalu siaga, suami yang sangat luar biasa baiknya. 💕
+  </p>
+  <button class="next-btn">Next</button>
+</div>
+
+<!-- Part 3: Harapan -->
+<div id="part-harapan" class="screen hidden">
+  <img src="images/foto9.jpg" alt="Harapan" class="part-img">
+  <h2>Harapan Kita</h2>
+  <p>
+    Semoga cinta kita terus tumbuh, menjadi lebih indah setiap harinya.
+    Selamat ulang tahun pernikahan, dari hatiku untukmu ❤️
+  </p>
+  <p>
+    Semoga Allah senantiasa melindungi rumah tangga kita,<br> 
+    Semoga kita selalu bahagia, saling menyayangi, mencintai,<br> 
+    menghargai teru terusan, semoga sakinah mawadah warohmah,<br> 
+    dan semoga Allah meridhoi kita untuk memiliki keturunan anak yang Sholeh dan sholehah.<br>
+    Aamiin aamiin yaa robbal'alamiin 🤲🏻
+  </p>
+  <button class="next-btn">Next</button>
+</div>
+
+<!-- Part 4: Penutup -->
+<div id="part-akhir" class="screen hidden">
+  <img src="images/foto10.jpg" alt="Akhir" class="part-img">
+  <h2>💞 Happy Anniversary 💞</h2>
+  <p>
+    Terima kasih sudah menonton kisah cinta ini. Semoga kita terus bahagia selamanya.
+  </p>
+</div>
+
+
+  <!-- Musik -->
+  <audio id="bg-music" src="music/Tiara Andini, Arsy Widianto - Lagu Pernikahan Kita.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
