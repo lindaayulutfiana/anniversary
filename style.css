@@ -156,3 +156,10 @@ h1, h2 {
 .next-btn:hover {
   background-color: #e75480;
 }
+
+
+#part-kenangan {
+  overflow-y: auto;
+  height: 100vh;
+  padding-bottom: 100px;
+}
